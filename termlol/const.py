@@ -14,8 +14,15 @@ BACK_RED = '\033[01;41m'
 BACK_GREEN = '\033[01;42m'
 BACK_YELLOW = '\033[01;43m'
 BACK_BLUE = '\033[01;44m'
+BACK_WHITE = '\033[01;47m'
 
 RESET = '\033[0m'
+
+KEYBOARD_MAGIC = '\x1b'
+KEYBOARD_UP = '[A'
+KEYBOARD_LEFT = '[D'
+KEYBOARD_RIGHT = '[C'
+KEYBOARD_DOWN = '[B'
 
 if __name__ == '__main__':
 	print FORE_BLUE + 'hello' + RESET
